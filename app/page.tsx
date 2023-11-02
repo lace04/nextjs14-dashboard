@@ -35,14 +35,14 @@ export default function Page() {
             src='/hero-desktop.png'
             width={1000}
             height={760}
-            className='hidden md:block'
+            className='hidden lg:block'
             alt='Screenshots of the dashboard project showing desktop and mobile versions'
           />
           <Image
             src='/hero-mobile.png'
             width={560}
             height={620}
-            className='block md:hidden'
+            className='block lg:hidden'
             alt='Screenshot of the dashboard project showing mobile version'
           />
         </div>
